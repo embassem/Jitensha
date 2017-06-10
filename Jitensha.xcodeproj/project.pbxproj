@@ -1,0 +1,1023 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42BB6C61BEF605BB974EB78B /* Pods_Jitensha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96467B0D2C9A7DB265D36BA7 /* Pods_Jitensha.framework */; };
+		5900FE491EE99F9600FFE9B3 /* ValidationErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900FE481EE99F9600FFE9B3 /* ValidationErrorType.swift */; };
+		5900FE4C1EE99F9600FFE9B3 /* MapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 5900FE4B1EE99F9600FFE9B3 /* MapStyle.json */; };
+		5900FE4F1EE99F9600FFE9B3 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900FE4E1EE99F9600FFE9B3 /* MapViewModel.swift */; };
+		5900FE511EE99F9600FFE9B3 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900FE501EE99F9600FFE9B3 /* AuthViewModel.swift */; };
+		5924EFDB1EEBD5B6009E8F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B462E31EE836C900C49865 /* Assets.xcassets */; };
+		5924EFDC1EEBD5B6009E8F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B462E31EE836C900C49865 /* Assets.xcassets */; };
+		595789A01EE8539800E58F9B /* APPEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5957899F1EE8539800E58F9B /* APPEnums.swift */; };
+		595789A31EE8544C00E58F9B /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595789A21EE8544C00E58F9B /* LocationService.swift */; };
+		595789A51EE861C400E58F9B /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595789A41EE861C400E58F9B /* BaseModel.swift */; };
+		595789AC1EE8666200E58F9B /* PlacesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595789A91EE8666200E58F9B /* PlacesResponse.swift */; };
+		595789AD1EE8666200E58F9B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595789AA1EE8666200E58F9B /* Result.swift */; };
+		595789AF1EE866A800E58F9B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595789AE1EE866A800E58F9B /* Location.swift */; };
+		595789B21EE8675700E58F9B /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595789B01EE8675700E58F9B /* Auth.storyboard */; };
+		595789B51EE8679400E58F9B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595789B31EE8679400E58F9B /* LoginViewController.swift */; };
+		595789B61EE8679400E58F9B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595789B41EE8679400E58F9B /* RegisterViewController.swift */; };
+		596EE0FB1EE9AB740026A78B /* PlaceInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596EE0FA1EE9AB740026A78B /* PlaceInfoWindow.swift */; };
+		596EE0FE1EE9AB7E0026A78B /* PlaceInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596EE0FC1EE9AB7E0026A78B /* PlaceInfoWindow.xib */; };
+		59B462BF1EE8363C00C49865 /* JitenshaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B462BE1EE8363C00C49865 /* JitenshaTests.swift */; };
+		59B462CA1EE8363C00C49865 /* JitenshaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B462C91EE8363C00C49865 /* JitenshaUITests.swift */; };
+		59B462E71EE836C900C49865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B462D81EE836C900C49865 /* LaunchScreen.storyboard */; };
+		59B462E81EE836C900C49865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B462DA1EE836C900C49865 /* Main.storyboard */; };
+		59B462E91EE836C900C49865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B462DF1EE836C900C49865 /* AppDelegate.swift */; };
+		59B462EA1EE836C900C49865 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59B462E01EE836C900C49865 /* Info.plist */; };
+		59B462EB1EE836C900C49865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B462E31EE836C900C49865 /* Assets.xcassets */; };
+		59B462EC1EE836C900C49865 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B462E51EE836C900C49865 /* MapViewController.swift */; };
+		59B4630B1EE841F800C49865 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B4630A1EE841F800C49865 /* LoginResponse.swift */; };
+		59B463191EE849F200C49865 /* Helper+Authorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463171EE849F200C49865 /* Helper+Authorize.swift */; };
+		59B4631A1EE849F200C49865 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463181EE849F200C49865 /* Helper.swift */; };
+		59B4631C1EE849F800C49865 /* ViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B4631B1EE849F800C49865 /* ViewControllers.swift */; };
+		59B4631E1EE84C0600C49865 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B4631D1EE84C0600C49865 /* AuthModel.swift */; };
+		59B463201EE84D6500C49865 /* RentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B4631F1EE84D6500C49865 /* RentModel.swift */; };
+		59B463281EE84EA400C49865 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463211EE84EA400C49865 /* Data.swift */; };
+		59B463291EE84EA400C49865 /* StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463221EE84EA400C49865 /* StoryboardIdentifiable.swift */; };
+		59B4632A1EE84EA400C49865 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463231EE84EA400C49865 /* UIApplication.swift */; };
+		59B4632B1EE84EA400C49865 /* UIColor+APP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463241EE84EA400C49865 /* UIColor+APP.swift */; };
+		59B4632C1EE84EA400C49865 /* UIStoryboard+Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463251EE84EA400C49865 /* UIStoryboard+Storyboards.swift */; };
+		59B4632D1EE84EA400C49865 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463261EE84EA400C49865 /* UIView+Nib.swift */; };
+		59B4632E1EE84EA400C49865 /* UIViewController+StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463271EE84EA400C49865 /* UIViewController+StoryboardIdentifier.swift */; };
+		59B463301EE84EAF00C49865 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B4632F1EE84EAF00C49865 /* Config.swift */; };
+		59B463361EE84EDE00C49865 /* ClientProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463331EE84EDE00C49865 /* ClientProvider.swift */; };
+		59B463371EE84EDE00C49865 /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463341EE84EDE00C49865 /* ClientService.swift */; };
+		59B463381EE84EDE00C49865 /* TokenPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463351EE84EDE00C49865 /* TokenPlugin.swift */; };
+		59B4633A1EE84FCB00C49865 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B463391EE84FCB00C49865 /* Shared.swift */; };
+		59C2DB721EEB76C50017298F /* RentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C2DB711EEB76C50017298F /* RentViewController.swift */; };
+		C8C8C0740A0A6A72E82D14D3 /* Pods_JitenshaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DAA38AEF98D5CCECD9893D /* Pods_JitenshaTests.framework */; };
+		CC9C20355807E50E0557A24E /* Pods_JitenshaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098D0F0711AFDE9CB4737BF1 /* Pods_JitenshaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59B462BB1EE8363C00C49865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59B4629E1EE8363B00C49865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59B462A51EE8363B00C49865;
+			remoteInfo = Jitensha;
+		};
+		59B462C61EE8363C00C49865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59B4629E1EE8363B00C49865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59B462A51EE8363B00C49865;
+			remoteInfo = Jitensha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		098D0F0711AFDE9CB4737BF1 /* Pods_JitenshaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JitenshaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29967160032AD90B95F4DF90 /* Pods-JitenshaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitenshaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JitenshaUITests/Pods-JitenshaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		403AF683191E8F0505119617 /* Pods-Jitensha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jitensha.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jitensha/Pods-Jitensha.release.xcconfig"; sourceTree = "<group>"; };
+		4D9EF164A1E5F9FF955D59C8 /* Pods-JitenshaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitenshaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JitenshaUITests/Pods-JitenshaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E63F4ED266DB5A223562572 /* Pods-Jitensha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jitensha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jitensha/Pods-Jitensha.debug.xcconfig"; sourceTree = "<group>"; };
+		5900FE481EE99F9600FFE9B3 /* ValidationErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationErrorType.swift; sourceTree = "<group>"; };
+		5900FE4B1EE99F9600FFE9B3 /* MapStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapStyle.json; sourceTree = "<group>"; };
+		5900FE4E1EE99F9600FFE9B3 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		5900FE501EE99F9600FFE9B3 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		5957899F1EE8539800E58F9B /* APPEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPEnums.swift; sourceTree = "<group>"; };
+		595789A21EE8544C00E58F9B /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		595789A41EE861C400E58F9B /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		595789A91EE8666200E58F9B /* PlacesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesResponse.swift; sourceTree = "<group>"; };
+		595789AA1EE8666200E58F9B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		595789AE1EE866A800E58F9B /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		595789B11EE8675700E58F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Auth.storyboard; sourceTree = "<group>"; };
+		595789B31EE8679400E58F9B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		595789B41EE8679400E58F9B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		596EE0FA1EE9AB740026A78B /* PlaceInfoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceInfoWindow.swift; sourceTree = "<group>"; };
+		596EE0FD1EE9AB7E0026A78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = PlaceInfoWindow.xib; sourceTree = "<group>"; };
+		59B462A61EE8363B00C49865 /* Jitensha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jitensha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B462BA1EE8363C00C49865 /* JitenshaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JitenshaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B462BE1EE8363C00C49865 /* JitenshaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JitenshaTests.swift; sourceTree = "<group>"; };
+		59B462C01EE8363C00C49865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B462C51EE8363C00C49865 /* JitenshaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JitenshaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B462C91EE8363C00C49865 /* JitenshaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JitenshaUITests.swift; sourceTree = "<group>"; };
+		59B462CB1EE8363C00C49865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B462D91EE836C900C49865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59B462DB1EE836C900C49865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		59B462DF1EE836C900C49865 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59B462E01EE836C900C49865 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B462E31EE836C900C49865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59B462E51EE836C900C49865 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		59B4630A1EE841F800C49865 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		59B463171EE849F200C49865 /* Helper+Authorize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper+Authorize.swift"; sourceTree = "<group>"; };
+		59B463181EE849F200C49865 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		59B4631B1EE849F800C49865 /* ViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllers.swift; sourceTree = "<group>"; };
+		59B4631D1EE84C0600C49865 /* AuthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		59B4631F1EE84D6500C49865 /* RentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentModel.swift; sourceTree = "<group>"; };
+		59B463211EE84EA400C49865 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		59B463221EE84EA400C49865 /* StoryboardIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiable.swift; sourceTree = "<group>"; };
+		59B463231EE84EA400C49865 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		59B463241EE84EA400C49865 /* UIColor+APP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+APP.swift"; sourceTree = "<group>"; };
+		59B463251EE84EA400C49865 /* UIStoryboard+Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Storyboards.swift"; sourceTree = "<group>"; };
+		59B463261EE84EA400C49865 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		59B463271EE84EA400C49865 /* UIViewController+StoryboardIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+StoryboardIdentifier.swift"; sourceTree = "<group>"; };
+		59B4632F1EE84EAF00C49865 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		59B463331EE84EDE00C49865 /* ClientProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientProvider.swift; sourceTree = "<group>"; };
+		59B463341EE84EDE00C49865 /* ClientService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientService.swift; sourceTree = "<group>"; };
+		59B463351EE84EDE00C49865 /* TokenPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenPlugin.swift; sourceTree = "<group>"; };
+		59B463391EE84FCB00C49865 /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		59C2DB711EEB76C50017298F /* RentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentViewController.swift; sourceTree = "<group>"; };
+		59C2DBAB1EEBA21D0017298F /* Jitensha-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jitensha-Bridging-Header.h"; sourceTree = "<group>"; };
+		727591DE99419983DC8845FE /* Pods-JitenshaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitenshaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JitenshaTests/Pods-JitenshaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74ECCF322B6389AE213D89CE /* Pods-JitenshaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitenshaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JitenshaTests/Pods-JitenshaTests.release.xcconfig"; sourceTree = "<group>"; };
+		96467B0D2C9A7DB265D36BA7 /* Pods_Jitensha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jitensha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DAA38AEF98D5CCECD9893D /* Pods_JitenshaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JitenshaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59B462A31EE8363B00C49865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BB6C61BEF605BB974EB78B /* Pods_Jitensha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B462B71EE8363C00C49865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C8C0740A0A6A72E82D14D3 /* Pods_JitenshaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B462C21EE8363C00C49865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9C20355807E50E0557A24E /* Pods_JitenshaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58430C80F0366C600DCCFA7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96467B0D2C9A7DB265D36BA7 /* Pods_Jitensha.framework */,
+				D1DAA38AEF98D5CCECD9893D /* Pods_JitenshaTests.framework */,
+				098D0F0711AFDE9CB4737BF1 /* Pods_JitenshaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5900FE4D1EE99F9600FFE9B3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5900FE4E1EE99F9600FFE9B3 /* MapViewModel.swift */,
+				5900FE501EE99F9600FFE9B3 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		595789A11EE8544C00E58F9B /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				595789A21EE8544C00E58F9B /* LocationService.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		59B4629D1EE8363B00C49865 = {
+			isa = PBXGroup;
+			children = (
+				59B462A81EE8363B00C49865 /* Jitensha */,
+				59B462BD1EE8363C00C49865 /* JitenshaTests */,
+				59B462C81EE8363C00C49865 /* JitenshaUITests */,
+				59B462A71EE8363B00C49865 /* Products */,
+				ADD5033D7880974C33D514F8 /* Pods */,
+				58430C80F0366C600DCCFA7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59B462A71EE8363B00C49865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59B462A61EE8363B00C49865 /* Jitensha.app */,
+				59B462BA1EE8363C00C49865 /* JitenshaTests.xctest */,
+				59B462C51EE8363C00C49865 /* JitenshaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59B462A81EE8363B00C49865 /* Jitensha */ = {
+			isa = PBXGroup;
+			children = (
+				59B462D71EE836C900C49865 /* BaseUI */,
+				59B462DC1EE836C900C49865 /* Extensions */,
+				59B462DD1EE836C900C49865 /* Helpers */,
+				59B462DE1EE836C900C49865 /* Main */,
+				59B462E11EE836C900C49865 /* Models */,
+				59B462E21EE836C900C49865 /* Support Files */,
+				59B463311EE84EDE00C49865 /* Modules */,
+				59B462E41EE836C900C49865 /* ViewControllers */,
+				5900FE4D1EE99F9600FFE9B3 /* ViewModels */,
+				59B462E61EE836C900C49865 /* Views */,
+			);
+			path = Jitensha;
+			sourceTree = "<group>";
+		};
+		59B462BD1EE8363C00C49865 /* JitenshaTests */ = {
+			isa = PBXGroup;
+			children = (
+				59B462BE1EE8363C00C49865 /* JitenshaTests.swift */,
+				59B462C01EE8363C00C49865 /* Info.plist */,
+			);
+			path = JitenshaTests;
+			sourceTree = "<group>";
+		};
+		59B462C81EE8363C00C49865 /* JitenshaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59B462C91EE8363C00C49865 /* JitenshaUITests.swift */,
+				59B462CB1EE8363C00C49865 /* Info.plist */,
+			);
+			path = JitenshaUITests;
+			sourceTree = "<group>";
+		};
+		59B462D71EE836C900C49865 /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				595789B01EE8675700E58F9B /* Auth.storyboard */,
+				59B462D81EE836C900C49865 /* LaunchScreen.storyboard */,
+				59B462DA1EE836C900C49865 /* Main.storyboard */,
+				596EE0FC1EE9AB7E0026A78B /* PlaceInfoWindow.xib */,
+			);
+			name = BaseUI;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		59B462DC1EE836C900C49865 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				59B463211EE84EA400C49865 /* Data.swift */,
+				59B463221EE84EA400C49865 /* StoryboardIdentifiable.swift */,
+				59B463231EE84EA400C49865 /* UIApplication.swift */,
+				59B463241EE84EA400C49865 /* UIColor+APP.swift */,
+				59B463251EE84EA400C49865 /* UIStoryboard+Storyboards.swift */,
+				59B463261EE84EA400C49865 /* UIView+Nib.swift */,
+				59B463271EE84EA400C49865 /* UIViewController+StoryboardIdentifier.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		59B462DD1EE836C900C49865 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5900FE481EE99F9600FFE9B3 /* ValidationErrorType.swift */,
+				59B463391EE84FCB00C49865 /* Shared.swift */,
+				59B4631B1EE849F800C49865 /* ViewControllers.swift */,
+				59B463161EE849F200C49865 /* Helper */,
+				5957899F1EE8539800E58F9B /* APPEnums.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		59B462DE1EE836C900C49865 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				59B4632F1EE84EAF00C49865 /* Config.swift */,
+				59B462DF1EE836C900C49865 /* AppDelegate.swift */,
+				59B462E01EE836C900C49865 /* Info.plist */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		59B462E11EE836C900C49865 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				595789AE1EE866A800E58F9B /* Location.swift */,
+				595789A91EE8666200E58F9B /* PlacesResponse.swift */,
+				595789AA1EE8666200E58F9B /* Result.swift */,
+				595789A41EE861C400E58F9B /* BaseModel.swift */,
+				59B4631F1EE84D6500C49865 /* RentModel.swift */,
+				59B4631D1EE84C0600C49865 /* AuthModel.swift */,
+				59B4630A1EE841F800C49865 /* LoginResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		59B462E21EE836C900C49865 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5900FE4B1EE99F9600FFE9B3 /* MapStyle.json */,
+				59B462E31EE836C900C49865 /* Assets.xcassets */,
+				59C2DBAB1EEBA21D0017298F /* Jitensha-Bridging-Header.h */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		59B462E41EE836C900C49865 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				595789B31EE8679400E58F9B /* LoginViewController.swift */,
+				595789B41EE8679400E58F9B /* RegisterViewController.swift */,
+				59B462E51EE836C900C49865 /* MapViewController.swift */,
+				59C2DB711EEB76C50017298F /* RentViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		59B462E61EE836C900C49865 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				596EE0FA1EE9AB740026A78B /* PlaceInfoWindow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		59B463161EE849F200C49865 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				59B463171EE849F200C49865 /* Helper+Authorize.swift */,
+				59B463181EE849F200C49865 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		59B463311EE84EDE00C49865 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				595789A11EE8544C00E58F9B /* Location */,
+				59B463321EE84EDE00C49865 /* Network */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		59B463321EE84EDE00C49865 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				59B463331EE84EDE00C49865 /* ClientProvider.swift */,
+				59B463341EE84EDE00C49865 /* ClientService.swift */,
+				59B463351EE84EDE00C49865 /* TokenPlugin.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ADD5033D7880974C33D514F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E63F4ED266DB5A223562572 /* Pods-Jitensha.debug.xcconfig */,
+				403AF683191E8F0505119617 /* Pods-Jitensha.release.xcconfig */,
+				727591DE99419983DC8845FE /* Pods-JitenshaTests.debug.xcconfig */,
+				74ECCF322B6389AE213D89CE /* Pods-JitenshaTests.release.xcconfig */,
+				4D9EF164A1E5F9FF955D59C8 /* Pods-JitenshaUITests.debug.xcconfig */,
+				29967160032AD90B95F4DF90 /* Pods-JitenshaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59B462A51EE8363B00C49865 /* Jitensha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59B462CE1EE8363C00C49865 /* Build configuration list for PBXNativeTarget "Jitensha" */;
+			buildPhases = (
+				C7D9D10CB9A15E30DDE43B0B /* [CP] Check Pods Manifest.lock */,
+				59B462A21EE8363B00C49865 /* Sources */,
+				59B462A31EE8363B00C49865 /* Frameworks */,
+				59B462A41EE8363B00C49865 /* Resources */,
+				6640E39C0C01B0BE673956CB /* [CP] Embed Pods Frameworks */,
+				FFE1578B5C6254DC40B4F04A /* [CP] Copy Pods Resources */,
+				595789A71EE8656E00E58F9B /* Fabric Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jitensha;
+			productName = Jitensha;
+			productReference = 59B462A61EE8363B00C49865 /* Jitensha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59B462B91EE8363C00C49865 /* JitenshaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59B462D11EE8363C00C49865 /* Build configuration list for PBXNativeTarget "JitenshaTests" */;
+			buildPhases = (
+				A52BD6136E4D7ADCA777C541 /* [CP] Check Pods Manifest.lock */,
+				59B462B61EE8363C00C49865 /* Sources */,
+				59B462B71EE8363C00C49865 /* Frameworks */,
+				59B462B81EE8363C00C49865 /* Resources */,
+				E23C4ABBD81C1FA10C4DD1B8 /* [CP] Embed Pods Frameworks */,
+				B1BCC28B628BD210A0905924 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59B462BC1EE8363C00C49865 /* PBXTargetDependency */,
+			);
+			name = JitenshaTests;
+			productName = JitenshaTests;
+			productReference = 59B462BA1EE8363C00C49865 /* JitenshaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59B462C41EE8363C00C49865 /* JitenshaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59B462D41EE8363C00C49865 /* Build configuration list for PBXNativeTarget "JitenshaUITests" */;
+			buildPhases = (
+				97A35358AC3BDD0CFD192984 /* [CP] Check Pods Manifest.lock */,
+				59B462C11EE8363C00C49865 /* Sources */,
+				59B462C21EE8363C00C49865 /* Frameworks */,
+				59B462C31EE8363C00C49865 /* Resources */,
+				7B893A40A1AE51E2CE722CBA /* [CP] Embed Pods Frameworks */,
+				C5005449ECA147121834A327 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59B462C71EE8363C00C49865 /* PBXTargetDependency */,
+			);
+			name = JitenshaUITests;
+			productName = JitenshaUITests;
+			productReference = 59B462C51EE8363C00C49865 /* JitenshaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59B4629E1EE8363B00C49865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bassem Abbas";
+				TargetAttributes = {
+					59B462A51EE8363B00C49865 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3HW52YW266;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					59B462B91EE8363C00C49865 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3HW52YW266;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59B462A51EE8363B00C49865;
+					};
+					59B462C41EE8363C00C49865 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3HW52YW266;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59B462A51EE8363B00C49865;
+					};
+				};
+			};
+			buildConfigurationList = 59B462A11EE8363B00C49865 /* Build configuration list for PBXProject "Jitensha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59B4629D1EE8363B00C49865;
+			productRefGroup = 59B462A71EE8363B00C49865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59B462A51EE8363B00C49865 /* Jitensha */,
+				59B462B91EE8363C00C49865 /* JitenshaTests */,
+				59B462C41EE8363C00C49865 /* JitenshaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59B462A41EE8363B00C49865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B462E71EE836C900C49865 /* LaunchScreen.storyboard in Resources */,
+				59B462E81EE836C900C49865 /* Main.storyboard in Resources */,
+				5900FE4C1EE99F9600FFE9B3 /* MapStyle.json in Resources */,
+				595789B21EE8675700E58F9B /* Auth.storyboard in Resources */,
+				59B462EB1EE836C900C49865 /* Assets.xcassets in Resources */,
+				596EE0FE1EE9AB7E0026A78B /* PlaceInfoWindow.xib in Resources */,
+				59B462EA1EE836C900C49865 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B462B81EE8363C00C49865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5924EFDB1EEBD5B6009E8F24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B462C31EE8363C00C49865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5924EFDC1EEBD5B6009E8F24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		595789A71EE8656E00E58F9B /* Fabric Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Fabric Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" d2ea85a51e7d5e96b6fe866f00bf3f5e75278890 db08526c27ec0f55c8803ad9d80c44b76b43f39aa668e0451990a0d0126d21fc     ";
+		};
+		6640E39C0C01B0BE673956CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jitensha/Pods-Jitensha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B893A40A1AE51E2CE722CBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JitenshaUITests/Pods-JitenshaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A35358AC3BDD0CFD192984 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A52BD6136E4D7ADCA777C541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1BCC28B628BD210A0905924 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JitenshaTests/Pods-JitenshaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5005449ECA147121834A327 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JitenshaUITests/Pods-JitenshaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D9D10CB9A15E30DDE43B0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E23C4ABBD81C1FA10C4DD1B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JitenshaTests/Pods-JitenshaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE1578B5C6254DC40B4F04A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jitensha/Pods-Jitensha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59B462A21EE8363B00C49865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5900FE491EE99F9600FFE9B3 /* ValidationErrorType.swift in Sources */,
+				595789B51EE8679400E58F9B /* LoginViewController.swift in Sources */,
+				59B462EC1EE836C900C49865 /* MapViewController.swift in Sources */,
+				595789AC1EE8666200E58F9B /* PlacesResponse.swift in Sources */,
+				59B463361EE84EDE00C49865 /* ClientProvider.swift in Sources */,
+				59B463371EE84EDE00C49865 /* ClientService.swift in Sources */,
+				59B463291EE84EA400C49865 /* StoryboardIdentifiable.swift in Sources */,
+				59B463301EE84EAF00C49865 /* Config.swift in Sources */,
+				595789AF1EE866A800E58F9B /* Location.swift in Sources */,
+				59B462E91EE836C900C49865 /* AppDelegate.swift in Sources */,
+				595789A31EE8544C00E58F9B /* LocationService.swift in Sources */,
+				5900FE4F1EE99F9600FFE9B3 /* MapViewModel.swift in Sources */,
+				59B4631C1EE849F800C49865 /* ViewControllers.swift in Sources */,
+				59B4632C1EE84EA400C49865 /* UIStoryboard+Storyboards.swift in Sources */,
+				59B4632D1EE84EA400C49865 /* UIView+Nib.swift in Sources */,
+				59B4630B1EE841F800C49865 /* LoginResponse.swift in Sources */,
+				59C2DB721EEB76C50017298F /* RentViewController.swift in Sources */,
+				59B4633A1EE84FCB00C49865 /* Shared.swift in Sources */,
+				5900FE511EE99F9600FFE9B3 /* AuthViewModel.swift in Sources */,
+				595789AD1EE8666200E58F9B /* Result.swift in Sources */,
+				59B4632B1EE84EA400C49865 /* UIColor+APP.swift in Sources */,
+				59B4632A1EE84EA400C49865 /* UIApplication.swift in Sources */,
+				59B463281EE84EA400C49865 /* Data.swift in Sources */,
+				59B463191EE849F200C49865 /* Helper+Authorize.swift in Sources */,
+				59B463201EE84D6500C49865 /* RentModel.swift in Sources */,
+				595789A01EE8539800E58F9B /* APPEnums.swift in Sources */,
+				596EE0FB1EE9AB740026A78B /* PlaceInfoWindow.swift in Sources */,
+				59B463381EE84EDE00C49865 /* TokenPlugin.swift in Sources */,
+				595789B61EE8679400E58F9B /* RegisterViewController.swift in Sources */,
+				59B4631A1EE849F200C49865 /* Helper.swift in Sources */,
+				59B4632E1EE84EA400C49865 /* UIViewController+StoryboardIdentifier.swift in Sources */,
+				595789A51EE861C400E58F9B /* BaseModel.swift in Sources */,
+				59B4631E1EE84C0600C49865 /* AuthModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B462B61EE8363C00C49865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B462BF1EE8363C00C49865 /* JitenshaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B462C11EE8363C00C49865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B462CA1EE8363C00C49865 /* JitenshaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59B462BC1EE8363C00C49865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59B462A51EE8363B00C49865 /* Jitensha */;
+			targetProxy = 59B462BB1EE8363C00C49865 /* PBXContainerItemProxy */;
+		};
+		59B462C71EE8363C00C49865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59B462A51EE8363B00C49865 /* Jitensha */;
+			targetProxy = 59B462C61EE8363C00C49865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		595789B01EE8675700E58F9B /* Auth.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				595789B11EE8675700E58F9B /* Base */,
+			);
+			name = Auth.storyboard;
+			sourceTree = "<group>";
+		};
+		596EE0FC1EE9AB7E0026A78B /* PlaceInfoWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				596EE0FD1EE9AB7E0026A78B /* Base */,
+			);
+			name = PlaceInfoWindow.xib;
+			sourceTree = "<group>";
+		};
+		59B462D81EE836C900C49865 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59B462D91EE836C900C49865 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		59B462DA1EE836C900C49865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59B462DB1EE836C900C49865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59B462CC1EE8363C00C49865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59B462CD1EE8363C00C49865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59B462CF1EE8363C00C49865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E63F4ED266DB5A223562572 /* Pods-Jitensha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3HW52YW266;
+				INFOPLIST_FILE = "$(SRCROOT)/Jitensha/Main/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EMBassem.Jitensha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jitensha/Support Files/Jitensha-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		59B462D01EE8363C00C49865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403AF683191E8F0505119617 /* Pods-Jitensha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3HW52YW266;
+				INFOPLIST_FILE = "$(SRCROOT)/Jitensha/Main/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EMBassem.Jitensha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jitensha/Support Files/Jitensha-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		59B462D21EE8363C00C49865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727591DE99419983DC8845FE /* Pods-JitenshaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3HW52YW266;
+				INFOPLIST_FILE = JitenshaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EMBassem.JitenshaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jitensha.app/Jitensha";
+			};
+			name = Debug;
+		};
+		59B462D31EE8363C00C49865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74ECCF322B6389AE213D89CE /* Pods-JitenshaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3HW52YW266;
+				INFOPLIST_FILE = JitenshaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EMBassem.JitenshaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jitensha.app/Jitensha";
+			};
+			name = Release;
+		};
+		59B462D51EE8363C00C49865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D9EF164A1E5F9FF955D59C8 /* Pods-JitenshaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3HW52YW266;
+				INFOPLIST_FILE = JitenshaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EMBassem.JitenshaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jitensha;
+			};
+			name = Debug;
+		};
+		59B462D61EE8363C00C49865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29967160032AD90B95F4DF90 /* Pods-JitenshaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3HW52YW266;
+				INFOPLIST_FILE = JitenshaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EMBassem.JitenshaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jitensha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59B462A11EE8363B00C49865 /* Build configuration list for PBXProject "Jitensha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B462CC1EE8363C00C49865 /* Debug */,
+				59B462CD1EE8363C00C49865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59B462CE1EE8363C00C49865 /* Build configuration list for PBXNativeTarget "Jitensha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B462CF1EE8363C00C49865 /* Debug */,
+				59B462D01EE8363C00C49865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59B462D11EE8363C00C49865 /* Build configuration list for PBXNativeTarget "JitenshaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B462D21EE8363C00C49865 /* Debug */,
+				59B462D31EE8363C00C49865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59B462D41EE8363C00C49865 /* Build configuration list for PBXNativeTarget "JitenshaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B462D51EE8363C00C49865 /* Debug */,
+				59B462D61EE8363C00C49865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59B4629E1EE8363B00C49865 /* Project object */;
+}
