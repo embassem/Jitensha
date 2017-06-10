@@ -11,7 +11,8 @@ import Foundation
 import Foundation
 import CoreLocation
 
-let apibaseUrl = "http://192.168.1.45:8080"
+//FIXME: Cahnge to Local IP
+let apibaseUrl = "http://localhost:8080"
 
 
 struct Config {
